@@ -5,7 +5,7 @@ const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
-    const APIKey = '66cea6b8b0c94579623c256aa1a6f447';
+    const APIKey = 'place your key here';
     const city = document.querySelector('.search-box input').value;
 
     if(city === '')
